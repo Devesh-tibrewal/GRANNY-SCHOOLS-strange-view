@@ -1,0 +1,154 @@
+    body{
+        margin:0;
+        padding:0
+    }
+    .header{
+        background-color: rgb(5, 2, 24);
+        padding-top:50px;
+        padding-bottom:20px;
+        float:left;
+        background-color: rgb(5, 2, 24);
+        width:100%;
+        height:160px;  
+        background-image:url('./resources/background.png');
+        padding:0;
+        margin:0;
+        position: relative;
+    }
+ 
+    .cont{
+        background-color:rgb(238, 231, 231);
+        float:left;
+        width:70%;
+        margin-left: 15%;
+        margin-right: 15%;
+
+        height:max-content;
+        padding-bottom: 10%;
+    }
+ 
+    .contact{
+        background-color:rgb(28, 28, 70);
+        width:100%;
+        height:30%;     
+        float:left;
+    }
+    .cont1{
+        width:80%;
+        margin-left:20%;
+        margin-right:20%;
+        background-color:#333;
+            margin:0.5%;
+            width:98.9%;
+            height:fit-content;
+            float:left;
+            background-color: #333;   
+            padding-bottom: 2%;    
+        
+    }
+    
+input{
+    margin:1em;
+    width: 20em; height: 4em;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+      
+
+}
+
+select{
+    margin:1em;
+    width: 10em; height: 3em;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+textarea{
+    margin:1em;
+    width: 20em; height: 5em;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+   
+    .frm{
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 15%;
+        border-radius: 5px;
+        background-color: #9a9b9a;
+        padding: 20px;
+    }
+    }
+    input[type=text], select{
+        width: 70%;
+  padding: 12px 20px;
+  margin: 8px 4;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #45a049;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color:rgb(235, 44, 82);
+  }
+  
+    .home1{ 
+    background-image:url('./bookgreen3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:8%;
+    width:84%;
+    height:100%;
+    }
+    .home2{
+        margin-top:30px;
+        background-color:white; 
+        display: flex;
+        justify-content: space-around;
+}
+.cl{
+    width: 200px;
+    height: 200px;
+}
+    .footer{
+        background-color: #333;
+        float:left;
+        width:100%;
+        height:20%;
+        color:whitesmoke;
+        background-color:rgb(5, 2, 24);
+        font-family:Arial, sans-serif;
+        font-size:110%;
+        position:relative;
+        margin:0%;
+      bottom:0; 
+    }            
+@media (max-width:1000px){
+    .home2{
+        display: block;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cl{
+        margin-bottom:40px;
+        width:250px;
+        height: 250px;
+    }
+}
+

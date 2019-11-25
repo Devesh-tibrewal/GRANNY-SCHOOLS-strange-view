@@ -1,0 +1,121 @@
+p1{font-family:Courier; color:white; float:right;
+}
+p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-left:15%;
+}
+h4{
+  font-size: 15px;
+  font-family:Consolas;
+}
+P3{ font-family:AGENCY FB; font-size:150%; font-weight:bold;  color:black;}
+p4{ float:left; font-size:200%; color:rgb(255, 255, 255); 
+}
+h1{
+  float:left; text-decoration: #333; font-size:410%; background-color: brown; color:wheat;
+}
+h2{
+   float:left; text-decoration: #333; font-size:210%; background-color:brown; color:wheat;
+}
+h3{margin-left:20px;
+   color:rgb(28, 19, 114);
+   text-decoration:none;
+   display: inline-block;
+}
+
+
+linkk{
+  text-decoration: none;
+}
+a{ 
+  color: #4CAF50;
+  text-decoration: none;
+}
+.button{
+    margin-left:40%;
+    background-color:#4CAF50;
+    border:none;
+    color:white;
+    padding:15px 32px;
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+    font-size:16px;
+    margin:4px 2px;
+    cursor:pointer;
+}
+.center{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%; 
+}
+.div25{
+  width:25%;
+  height: auto;
+  float:left;
+}
+.div75{
+  width:75%;
+  height:auto;
+  float:left;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button:hover{
+      background-color: rgb(54, 54, 54);
+  }
+  .margin1{
+margin-top:3%;
+margin-left:50%;
+  }
+  .button2 {background-color: #008CBA;} /* Blue */
+  .button3 {background-color: #f44336;} /* Red */ 
+  .button4 {background-color: #c4df4e; color: black;} /* Gray */ 
+  .button5 {background-color: #555555;} /* Black */
+  .button6 {background-color: #0a0a29;} /* Black */
+.img{
+    padding-bottom: 60px;
+}
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: rgb(240, 133, 133);}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(84, 175, 76);
+    color: white;
+  }
+.logo2{
+  width:350PX; height:90PX; padding-top:29px;
+}
+.logomain{
+  width:100px;
+  height:120px;
+}
+.hometext{
+  width:20rem;margin-top:2rem; height:5rem;
+}

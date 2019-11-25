@@ -1,0 +1,32 @@
+ul{
+    list-style-type:none;
+    width:100%;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    
+  
+    background-color:#333;
+}   
+li{
+float:left;
+}
+li a{
+    display: inline-block;
+    padding:14px 16px;
+    text-align:center; 
+    text-decoration:none;
+    background-color: #333;
+    color:white; 
+    font-style: bold;
+    font-size:110%;               
+}
+li a:hover:not(.active){
+    background-color:rgb(161, 4, 4);}
+.active{
+    background-color:rgb(24, 114, 17);}
+
+.icon{
+    width:100px; height:100px; margin-left: 9em;
+
+}
